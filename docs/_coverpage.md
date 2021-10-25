@@ -1,4 +1,4 @@
-window.$docsify = {
+<script>window.$docsify = {
   coverpage: true,
 
   // Custom file name
@@ -13,10 +13,11 @@ window.$docsify = {
     '/zh-cn/': 'cover.md',
   },
 };
+<script>
 
 
 
-window.$docsify = {
+<script>window.$docsify = {
   nameLink: '/',
 
   // For each route
@@ -25,3 +26,4 @@ window.$docsify = {
     '/': '/',
   },
 };
+<script>
