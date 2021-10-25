@@ -1,5 +1,27 @@
-<!-- _coverpage.md -->
+window.$docsify = {
+  coverpage: true,
 
-![logo](_media/icon.svg)
+  // Custom file name
+  coverpage: 'cover.md',
 
-# Documentation <small>3.5</small>
+  // multiple covers
+  coverpage: ['/', '/zh-cn/'],
+
+  // multiple covers and custom file name
+  coverpage: {
+    '/': 'cover.md',
+    '/zh-cn/': 'cover.md',
+  },
+};
+
+
+
+window.$docsify = {
+  nameLink: '/',
+
+  // For each route
+  nameLink: {
+    '/zh-cn/': '/zh-cn/',
+    '/': '/',
+  },
+};
